@@ -1,0 +1,28 @@
+{
+  "name": "Kodular Material Light",
+  "component": false,
+  "license_url": null,
+  "about_url": "https://community.kodular.io/t/new-community-look/42871",
+  "authors": "Alexander Barrios",
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+  },
+  "color_schemes": {
+   
+    "Light": {
+      "primary": "000000",
+      "secondary": "ffffff",
+      "tertiary": "4527a0",
+      "quaternary": "4527a0",
+      "header_background": "ffffff",
+      "header_primary": "333333",
+      "highlight": "a18ddf",
+      "danger": "e43535",
+      "success": "1ca551",
+      "love": "fa6c8d"
+    }
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}

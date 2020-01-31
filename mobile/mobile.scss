@@ -1,0 +1,44 @@
+.alert.alert-info {
+    margin-bottom: 8px;
+}
+
+#banner {
+    padding: 10px;
+    background-color: white;
+    color: #000;
+    z-index: 2;
+    overflow: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 93%;
+    display: table-cell;
+    margin-bottom: 8px;
+}
+
+.posts-wrapper {
+    width: 98%;
+    margin: 0 auto;
+    padding: 15px 0;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+}
+
+.list-controls .nav-pills .navigation-toggle {
+    flex: 0 1 auto;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#navigation-bar .ember-view a {
+    border-radius: 5px;
+    font-family: 'Jost*';
+    font-weight: 400;
+    padding-left: 8px;
+    color: #444 !important;
+}
+
+.modal-inner-container {
+    width: 90%;
+    border-radius: 5px;
+}

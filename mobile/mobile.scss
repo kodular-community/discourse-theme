@@ -42,3 +42,24 @@
     width: 90%;
     border-radius: 5px;
 }
+
+#suggested-topics {
+    min-width: calc(80% - 38%);
+    max-width: 98%;
+    width: fit-content;
+}
+
+.lightbox img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+.loading-container.ember-view {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.menu-panel {
+    border-radius: 8px;
+}

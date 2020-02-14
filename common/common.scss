@@ -1923,3 +1923,8 @@ div.menu-links-header .menu-links-row li a.active {
 .panel-body-contents .search-context label {
     font-family: "Jost*";
 }
+
+.user-menu .quick-access-panel li:hover, .user-menu .quick-access-panel li:focus {
+    border-radius: 5px;
+    transition: background 0.3s;
+}

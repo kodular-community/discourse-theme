@@ -44,9 +44,8 @@
 }
 
 #suggested-topics {
-    min-width: calc(80% - 38%);
-    max-width: 98%;
-    width: fit-content;
+    min-width: 98%;
+    width: 98%;
 }
 
 .lightbox img {
@@ -56,7 +55,7 @@
 
 
 .loading-container.ember-view {
-    width: fit-content;
+    width: 100%;
     margin: 0 auto;
 }
 

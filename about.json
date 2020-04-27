@@ -2,8 +2,8 @@
   "name": "Kodular Material Light",
   "component": false,
   "license_url": null,
-  "about_url": "https://community.kodular.io/t/new-community-look/42871/",
-  "authors": "Vishwas Adiga, Alexander Barrios",
+  "about_url": null,
+  "authors": null,
   "theme_version": null,
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
@@ -22,6 +22,8 @@
       "success": "1ca551",
       "love": "4527a0"
     }
+  },
+  "modifiers": {
   },
   "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }

@@ -1,0 +1,841 @@
+
+
+h1 {
+ font-family: 'Jost';
+ font-weight: 500;
+}
+
+h3 {
+    margin: 0;
+    font-family: 'Jost';
+    font-weight: 400;
+}
+
+h1              { font-size: 2em; margin: .67em 0 }
+h2              { font-size: 1.5em; margin: .75em 0 }
+h3              { font-size: 1.17em; margin: .83em 0 }
+h5              { font-size: .83em; margin: 1.5em 0 }
+h6              { font-size: .75em; margin: 1.67em 0 }
+h1, h2, h3, h4,
+h5, h6          { font-weight: bolder }
+
+.admin-main-nav .nav-pills>li {
+    margin: 0 4px;
+}
+
+
+
+
+.d-header {
+    box-shadow: none;
+    border-bottom: 1px solid #DDD;
+    transition: box-shadow 0.2s;
+}
+
+#search-button i::before,
+#toggle-hamburger-menu i::before,
+#toggle-messages-menu i::before {
+    font-size: 24px;
+    color: #4527A0;
+}
+
+#search-button,
+#toggle-hamburger-menu,
+#current-user,
+#toggle-messages-menu {
+    border-radius: 3600px;
+    margin: 0 3px;
+}
+
+#search-button:hover,
+#toggle-hamburger-menu:hover,
+#current-user:hover,
+#toggle-messages-menu:hover {
+    background-color: #EEE !important;
+}
+
+#current-user a {
+    border-color: transparent !important;
+}
+
+.header-dropdown-toggle a:hover {
+    background: transparent !important;
+}
+
+.category-drop-header,
+.tag-drop-header {
+    border-radius: 5px;
+    border-color: #DDD !important;
+}
+
+.category-drop-header.is-focused,
+.tag-drop-header.is-focused {
+    border-color: #666 !important;
+    box-shadow: none !important;
+}
+
+.badge-category-parent-bg {
+    border-radius: 2px 0 0 2px;
+}
+
+.badge-category-bg {
+    border-radius: 2px;
+}
+
+.badge-category-parent-bg ~ .badge-category-bg {
+    border-radius: 0 2px 2px 0;
+}
+
+.badge-notification.new-topic {
+    color: #4527A0;
+}
+
+.badge-wrapper.bullet {
+    display: flex;
+    align-items: baseline;
+}
+
+.badge-wrapper .badge-category .d-icon {
+    margin-right: 3px;
+    width: auto;
+}
+
+.topic-list .badge-notification {
+ 
+    margin: 0;
+    font-family: 'Jost';
+    font-weight: 400;
+    top: 0;
+}
+
+.num.views {
+    font-family: 'Jost';
+    font-weight: 400;
+}
+
+.title-wrapper *,
+.category-name,
+.selected-name,
+.topic-list-item a.title,
+.username,
+.post-info.edits,
+.post-date,
+#create-topic {
+    font-family: 'Jost';
+    font-weight: 400;
+}
+
+.moderator .regular > .cooked {
+    background-color: lightyellow;
+}
+
+.cooked {
+    padding: 3;
+}
+
+#create-topic {
+    border-radius: 5px;
+    background-color: #4527A0 !important;
+    color: #FFF;
+    display: block;
+}
+
+#create-topic i {
+    color: #FFF;
+    font-size: 17px !important;
+    vertical-align: middle;
+    line-height: 0 !important;
+    margin-right: 5px;
+    padding-bottom: 3px !important;
+}
+
+#create-topic svg {
+    color: #FFF;
+}
+
+#navigation-bar .ember-view a {
+    border-radius: 5px;
+    font-family: 'Jost';
+    font-weight: 400;
+    color: #444 !important;
+}
+
+#navigation-bar .ember-view a.active {
+    background-color: #4527A0 !important;
+    color: #FFF !important;
+}
+
+.contents.ember-view {
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.topic-list.ember-view > thead > tr > th,
+.category-list .category,
+.category-list .topics {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 16px;
+    color: #444;
+}
+
+.topic-list.ember-view > tbody {
+    border-top: 1px solid #DDD !important;
+}
+
+#navigation-bar .ember-view a:not(.active):hover {
+    background-color: #C7BEE3 !important;
+    color: #4527A0 !important;
+}
+
+.mdl-button--icon i {
+    line-height: 32px;
+    color: #4527A0;
+}
+
+#topic-title .title-wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.posts-wrapper {
+    width: 800px;
+    margin: 0 auto;
+    padding: 15px 0;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+}
+
+.topic-body,
+.topic-avatar {
+    border-top: 0 !important;
+}
+
+
+.topic-post {
+    padding: 0 15px;
+}
+
+.topic-post:not(:first-child),
+.time-gap {
+    border-top: 1px solid #DDD;
+}
+
+
+.time-gap {
+    max-width: 800px !important;
+}
+
+.small-action .small-action-desc.timegap {
+    font-family: 'Jost';
+    font-weight: 400;
+}
+
+.topic-status-info {
+    border: 0;
+}
+
+.loading-container.ember-view {
+    width: auto;
+    margin: 0 auto;
+}
+
+#topic-footer-buttons {
+    width: -webkit-fill-available;
+    margin: 0 auto;
+}
+
+#topic-footer-button-bookmark,
+#topic-footer-button-share-and-invite,
+#topic-footer-button-flag {
+    border: 1px solid #DDD;
+    background: transparent;
+    border-radius: 5px;
+    font-family: 'Jost';
+    font-weight: 400;
+    color: #666;
+}
+
+#topic-footer-button-bookmark:hover,
+#topic-footer-button-share-and-invite:hover,
+#topic-footer-button-flag:hover {
+    color: #444;
+    background-color: #EEE;
+}
+
+#topic-footer-button-bookmark i,
+#topic-footer-button-share-and-invite i,
+#topic-footer-button-flag i,
+#topic-footer-buttons .create.btn i,
+.post-info.edits i::before {
+    font-size: 17px;
+    line-height: 0;
+    vertical-align: middle;
+    margin-right: 5px;
+    padding-bottom: 3px;
+}
+
+#topic-footer-buttons .create.btn {
+    float: right;
+    border-radius: 5px;
+    background-color: #4527A0 !important;
+    margin-right: 0;
+    font-family: 'Jost';
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.topic-notifications-button.ember-view {
+    margin: 5px 0 0 0;
+}
+
+#topic-footer-buttons .topic-notifications-button .btn {
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    background: transparent;
+    outline: none !important;
+}
+
+.with-shadow {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.alert.alert-info.clickable a {
+    color: #4527A0;
+    font-family: 'Jost';
+    font-weight: 400;
+}
+
+.alert.alert-info {
+       background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.topic-list .topic-list-item-separator td {
+    border-bottom: 1px solid #999;
+}
+
+.topic-list .topic-list-item-separator td span {
+    color: #999;
+    text-transform: capitalize;
+}
+
+#suggested-topics {
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.suggested-topics {
+    border: 1px #ddd solid;
+    border-radius: 5px;
+    padding-top: 2px;
+    margin-bottom: 20px;
+}
+
+.suggested-topics-title {
+    font-size: 18px;
+    font-family: 'Jost';
+    font-weight: 400;
+    margin: 0;
+    padding: 5px 10px;
+    border-bottom: 1px solid #DDD;
+}
+
+.suggested-topics table,
+.suggested-topics .topics {
+    margin: 0;
+    padding: 0;
+}
+
+.suggested-topics-message {
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 0;
+    font-family: 'Jost';
+    font-weight: 400;
+    color: #666;
+}
+
+#list-area {
+    margin: 0;
+}
+
+.topic-map {
+    border-radius: 5px;
+    background: transparent;
+    margin: 0 0 20px 0;
+    border: 1px solid #DDD;
+}
+
+.topic-map section {
+    background: transparent;
+    border: 0;  
+}
+
+.topic-map section:not(:first-child) {
+    border-top: 1px solid #DDD;
+}
+
+.topic-map .buttons .btn {
+    background: transparent;
+    border: 0;
+    border-left: 1px solid #DDD;
+}
+
+.topic-map .buttons .btn i::before {
+    font-size: 20px !important;
+}
+
+.topic-status i {
+    margin-right: 5px;
+    vertical-align: middle;
+    color: #444;
+}
+
+.title-wrapper > h1 > div > span > .fa-lock::before {
+    vertical-align: middle;
+    padding-bottom: 5px;
+    font-size: 22px;
+    color: #444;
+}
+
+.post-menu-area {
+    margin: 0 !important;    
+}
+
+.actions > .double-button:hover button {
+    background-color: transparent !important;
+}
+
+.actions > .double-button > .like-count {
+    font-family: 'Jost';
+    font-weight: 400;
+    margin-right: 5px;
+}
+
+.post-controls button.share,
+.post-controls button.show-more-actions,
+.post-controls button.create-flag,
+.post-controls button.bookmark,
+.actions > .double-button > .toggle-like {
+    padding: 0 7px !important;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+.post-controls button.reply,
+.post-controls button.show-replies {
+    height: 30px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    font-family: 'Jost';
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0 7px;
+    color: #444 !important;
+}
+
+.post-controls button.reply i,
+.post-controls button.show-replies i {
+    color: #444 !important;
+    display: inline-flex;
+    vertical-align: bottom;
+}
+
+.embedded-posts .collapse-up {
+    border-radius: 5px;
+}
+
+.nav.post-controls .post-admin-menu {
+    border-radius: 5px;
+}
+
+nav.post-controls .actions button {
+vertical-align: initial;
+}
+
+nav.post-controls button {
+    
+    border-radius: 5px;
+
+}
+
+nav.post-controls button:active {
+    box-shadow: none;
+}
+
+nav.post-controls button:not(.reply) i::before {
+    font-size: 20px !important;
+}
+
+nav.post-controls .double-button button.has-like .d-icon {
+    color: #4527a0;
+}
+
+nav.post-controls .double-button button.has-like {
+
+}
+
+blockquote::after,
+blockquote::before {
+    display: none;
+}
+
+blockquote,
+code {
+    border-radius: 5px;
+    border: 1px solid #DDD;
+}
+
+blockquote {
+    border-left: 5px solid #DDD;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    position: relative;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.35;
+    font-style: normal;
+    letter-spacing: .08em;
+}
+
+
+
+aside .title {
+    line-height: 100%;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #DDD;
+    border-bottom: 0;
+    border-left: 5px solid #DDD !important;
+    font-family: 'Jost';
+    font-weight: 400;
+}
+
+aside blockquote {
+    border-radius: 0 0 5px 5px;
+    border-top: 0;
+}
+
+.lightbox img {
+    border-radius: 5px;
+} 
+
+.lightbox .meta {
+    border-radius: 0 0 5px 5px;
+}
+
+.select-kit-body {
+    border-radius: 5px !important;
+    overflow: hidden;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+.select-kit-body ul {
+    scrollbar-width: thin;
+}
+
+#topic-progress {
+    border: 1px solid #DDD;
+    border-radius: 5px 5px 0 0;
+}
+
+#topic-progress .nums {
+    color: #4527A0;
+}
+
+#topic-progress .bg {
+    background-color: #C7BEE3;
+}
+
+#dismiss-topics,
+#topic-footer-buttons .pinned-button .btn{
+    background: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    font-family: 'Jost';
+    font-weight: 400;
+    color: #666;
+    outline: none;
+}
+
+.category-list > tbody {
+    border: 0;
+}
+
+.latest-topic-list .table-heading, .top-topic-list .table-heading tbody {
+    border: 0;
+    border-bottom: 1px var(--primary-low) solid;
+}
+
+.category-list > tbody .category {
+    border-width: 8px;
+}
+
+.category-list > thead > tr > th.category {
+    padding: 0 15px;
+}
+
+.category-list > thead > tr > th.topics,
+.category-list > tbody .topics {
+    padding-right: 15px;
+}
+
+.category-list .category-text-title .category-name {
+    font-size: 18px;
+}
+
+.category-list div.category-description {
+        font-family: 'Jost';
+    font-size: 14px;
+}
+
+.topic-status > i::before {
+    vertical-align: top;    
+}
+
+#carbonads {
+    border: 1px solid #DDD !important;
+    border-radius: 5px;
+}
+
+.carbon-img img {
+    border-radius: 3px;
+}
+
+#whos-online {
+    padding: 10px !important;
+    margin: 0;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#whos-online > span {
+    margin-right: 10px;
+}
+
+.post-notice {
+    background: #DDD;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.topic-meta-data {
+    align-items: center;
+    height: 50px;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.topic-meta-data .names .first.username {
+    font-size: 15px;
+}
+
+.nationalflag-post {
+    border-radius: 2px;
+}
+
+.discourse-tags > a::before {
+    border-radius: 3600px;
+    margin-bottom: 1px;
+}
+
+.edit-topic {
+    float: right;
+    background: rgba(200, 200, 200, 0.1);
+    width: 35px;
+    height: 35px;
+    border-radius: 3600px;
+    text-align: center;
+    color: #666 !important;
+    transition: background 0.2s;
+}
+
+.edit-topic:hover {
+    background: #EEE;
+}
+
+
+a {
+    font-weight: 400;
+}
+
+
+ 
+
+.nav-pills>li a.active {
+    color: #fff;
+    background-color: #4527a0;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    
+    border-radius: 5px;
+    
+}
+
+.nav-pills>li>a {
+    
+    border-radius: 5px;
+}
+
+.btn { 
+    border-radius: 5px;
+    display: inline-flex;
+}
+
+.menu-panel {
+    border-radius: 3px;
+}
+
+.d-editor-textarea-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+    
+.d-editor-textarea-wrapper, .d-editor-preview-wrapper {
+    width: -webkit-fill-available;
+}
+
+
+.bootbox.modal {
+
+    border-radius: 5px;
+}
+
+.select-kit.combo-box .select-kit-header.is-focused {
+    border: 1px solid #4527a0;
+    box-shadow: 0 0 0px 0 #4527a0;
+    border-radius: 5px;
+}
+    
+    .select-kit.combo-box .select-kit-header {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+
+}
+
+#reply-control #reply-title {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus {
+    border: 1px solid #4527a0;
+    outline: 0;
+}
+
+input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+}
+
+input, textarea {
+    margin-left: 0;
+    border-radius: 5px;
+    border: 1px #ddd solid;
+}
+
+
+.menu-panel li a.widget-link:hover, .menu-panel li a.widget-link:focus, .menu-panel li.heading a.widget-link:hover, .menu-panel li.heading a.widget-link:focus {
+    border-radius: 5px;
+}
+
+.badge-card.medium {
+    border-radius: 5px;
+    border: 1px #ddd solid;
+    background-color: white;
+}
+
+.badge-card {
+    border-radius: 5px;
+    border: 1px #ddd solid;
+    background-color: white;
+}
+
+.badge-card .badge-contents .badge-info {
+    font-family: "Jost";
+    font-weight: 400;
+}
+
+.badge-card:hover {
+    box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+}
+
+.spinner {
+    margin: 20px auto 20px auto;
+    position: relative;
+    -webkit-animation: rotate-forever 0.8s infinite linear;
+    animation: rotate-forever 0.8s infinite linear;
+    height: 30px;
+    width: 30px;
+    border: 4px solid #4527a0;
+    border-right-color: transparent;
+    border-radius: 50%;
+}
+
+
+#user-card.show, #group-card.show {
+    
+    border-radius: 5px;
+    
+}
+
+.timeline-container .topic-timeline {
+    margin-left: 8em;
+}
+
+.user-main .about .controls .btn {
+    min-width: auto;
+}
+
+.user-menu .quick-access-panel li:not(.show-all) .d-icon {
+    float: left;
+    margin-right: 5px;
+    padding-top: 0;
+}
+
+div.menu-links-header .menu-links-row li a.active {
+    border: 1px solid #e6e6e6;
+border-bottom: 1px #fff solid;
+    position: relative;
+    border-radius: 5px 5px 0 0;
+}
+
+.search-menu input[type="text"] {
+    font-family: "Jost";
+    border-radius: 5px;
+    border: 1px #ddd solid;
+}
+
+.panel-body-contents .search-context label {
+    font-family: "Jost";
+}
+
+.user-menu .quick-access-panel li:hover, .user-menu .quick-access-panel li:focus {
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+
+.user-menu .quick-access-panel li {
+    background-color: #e1d9f6;
+    border-radius: 5px;
+}
+
+
+

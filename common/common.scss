@@ -140,6 +140,10 @@ h5, h6          { font-weight: bolder }
     display: block;
 }
 
+.badge-card .badge-contents .badge-icon.badge-type-bronze .fa::before {
+    font-size: 1.5em!important;
+}
+
 #create-topic i {
     color: #FFF;
     font-size: 17px !important;

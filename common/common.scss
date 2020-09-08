@@ -318,11 +318,10 @@ h5, h6          { font-weight: bolder }
 }
 
 .topic-list .topic-list-item-separator td {
-    border-bottom: 1px solid #999;
+    background: var(--danger-medium);
 }
 
 .topic-list .topic-list-item-separator td span {
-    color: #999;
     text-transform: capitalize;
 }
 

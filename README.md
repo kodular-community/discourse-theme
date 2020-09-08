@@ -1,19 +1,24 @@
+### **Kodular Material 2 - Light**
 
-<div align=center>
+Kodular Material Light is a theme for forums running [Discourse](https://discourse.org), inspired in Kodular's main service design: [Kodular Creator](https://creator.kodular.io)
+
+![latest-topics](https://d11a6trkgmumsb.cloudfront.net/original/3X/9/8/98159af8f7a83d6d5b993ab4e21a8e51b1cf1e0c.png)
+
+---
+
+More info at: https://meta.discourse.org/t/kodular-community-theme/162724?u=Alexander
+
+https://community.kodular.io/t/new-community-look/81535?u=yanquisalexander
 
 
-<img width=40% src="https://assets-ouch.icons8.com/thumb/905/cdec4487-c229-4acc-9bfc-0fcae8f06f78.png"/>
+---
 
-# Kodular Material 2 Theme for Discourse
-
-<img src="https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/5/9/599b534af0d98ca8a06edcaea4f81d2ace8aafad.png"/>
+<div align="center">
 
 
+**#Koded with :heart:, by Community**
 
-
->A remote theme must include an `about.json` file in order for it to importable. The `about.json` file lives at the root of the theme and its contents look like this
+<img src="https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/3/e/3e7e72acb0d06a23a46a3e57be4a64436261fc75.png" width= 28%>
 
 
 </div>
-
-This repository contains the files of the theme "Kodular Material 2" for Discourse

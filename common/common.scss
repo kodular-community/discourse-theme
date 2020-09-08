@@ -247,7 +247,6 @@ h5, h6          { font-weight: bolder }
 
 #topic-footer-buttons {
     width: -webkit-fill-available;
-    margin: 0 auto;
 }
 
 #topic-footer-button-bookmark,
@@ -440,7 +439,6 @@ h5, h6          { font-weight: bolder }
     border-radius: 5px;
     font-family: 'Jost';
     font-weight: 400;
-    line-height: 30px;
     padding: 0 7px;
     color: #444 !important;
 }
@@ -596,6 +594,10 @@ aside blockquote {
 .category-list div.category-description {
         font-family: 'Jost';
     font-size: 14px;
+}
+
+.category-list tbody .category h3 {
+  margin-top: 0;
 }
 
 .topic-status > i::before {

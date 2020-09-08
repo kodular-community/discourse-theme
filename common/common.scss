@@ -596,6 +596,10 @@ aside blockquote {
     font-size: 14px;
 }
 
+.category-list tbody .category h3 {
+  margin-top: 0;
+}
+
 .topic-status > i::before {
     vertical-align: top;    
 }

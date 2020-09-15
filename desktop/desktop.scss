@@ -30,3 +30,8 @@ margin: 0!important
 .posts-wrapper {
     margin: 0!important;
 }
+
+.discourse-no-touch .btn:hover,
+.discourse-no-touch .btn.btn-hover {
+    color:var(--secondary-high);
+}

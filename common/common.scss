@@ -852,8 +852,9 @@ i.fa.fa-shield-alt.d-icon.d-icon-shield-alt:before {
     padding-left: 10px;
 }
 
+.topic-avatar i.fa.fa-user-times.d-icon.d-icon-user-times::before,
+.topic-avatar i.fa.fa-user-plus.d-icon.d-icon-user-plus:before,
 .topic-avatar i.fa.fa-lock.d-icon.d-icon-lock::before {
  font-size: 2em;
  padding-left: 10px
 }
-

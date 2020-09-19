@@ -55,10 +55,6 @@
     margin-bottom: 20px;
 }
 
-.lightbox img {
-    border-radius: 5px;
-    width: 100%;
-}
 
 
 .loading-container.ember-view {
@@ -72,6 +68,7 @@
 
 .topic-post nav.post-controls .actions {
     display: -webkit-inline-box!important;
+    display: inline-box;
 }
 
 .category-list .category-text-title .category-name {

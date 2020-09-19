@@ -199,8 +199,10 @@ h5, h6          { font-weight: bolder }
 }
 
 #topic-title .title-wrapper {
-    width: 800px;
     margin: 0 auto;
+     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .posts-wrapper {

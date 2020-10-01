@@ -100,7 +100,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .topic-list .badge-notification {
- 
+
     margin: 0;
     font-family: 'Jost';
     font-weight: 400;
@@ -377,7 +377,7 @@ h5, h6          { font-weight: bolder }
 
 .topic-map section {
     background: transparent;
-    border: 0;  
+    border: 0;
 }
 
 .topic-map section:not(:first-child) {
@@ -408,7 +408,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .post-menu-area {
-    margin: 0 !important;    
+    margin: 0 !important;
 }
 
 .actions > .double-button:hover button {
@@ -463,7 +463,7 @@ vertical-align: initial;
 }
 
 nav.post-controls button {
-    
+
     border-radius: 5px;
 
 }
@@ -599,7 +599,7 @@ aside blockquote {
 }
 
 .topic-status > i::before {
-    vertical-align: top;    
+    vertical-align: top;
 }
 
 #carbonads {
@@ -670,7 +670,7 @@ a {
 }
 
 
- 
+
 
 .nav-pills>li a.active {
     color: #fff;
@@ -679,17 +679,17 @@ a {
 }
 
 .btn-primary {
-    
+
     border-radius: 5px;
-    
+
 }
 
 .nav-pills>li>a {
-    
+
     border-radius: 5px;
 }
 
-.btn { 
+.btn {
     border-radius: 5px;
     display: inline-flex;
 }
@@ -706,7 +706,7 @@ a {
     border: 1px solid #ddd;
     border-radius: 8px;
 }
-    
+
 .d-editor-textarea-wrapper, .d-editor-preview-wrapper {
     width: -webkit-fill-available;
 }
@@ -717,17 +717,21 @@ a {
     border-radius: 5px;
 }
 
+.select-kit {
+ position: initial;
+}
+
 .select-kit.combo-box .select-kit-header.is-focused {
     border: 1px solid #4527a0;
     box-shadow: 0 0 0px 0 #4527a0;
     border-radius: 5px;
 }
-    
+
     .select-kit.combo-box .select-kit-header {
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
-    
+
 
 }
 
@@ -793,9 +797,9 @@ input, textarea {
 
 
 #user-card.show, #group-card.show {
-    
+
     border-radius: 5px;
-    
+
 }
 
 .timeline-container .topic-timeline {
@@ -857,3 +861,10 @@ i.fa.fa-shield-alt.d-icon.d-icon-shield-alt:before {
  font-size: 2em;
  padding-left: 10px
 }
+
+
+div.select-kit.is-expanded .select-kit-body {
+  position: static;
+}
+
+

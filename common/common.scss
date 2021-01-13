@@ -32,6 +32,7 @@ h5, h6          { font-weight: bolder }
     transition: box-shadow 0.2s;
 }
 
+#discord-button i::before,
 #search-button i::before,
 #toggle-hamburger-menu i::before,
 #toggle-messages-menu i::before {
@@ -39,6 +40,7 @@ h5, h6          { font-weight: bolder }
     color: #4527A0;
 }
 
+#discord-button,
 #search-button,
 #toggle-hamburger-menu,
 #current-user,
@@ -47,6 +49,7 @@ h5, h6          { font-weight: bolder }
     margin: 0 3px;
 }
 
+#discord-button:hover,
 #search-button:hover,
 #toggle-hamburger-menu:hover,
 #current-user:hover,

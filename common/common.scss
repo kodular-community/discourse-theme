@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'CascadiaCodeRegular';
+    src: url($CascadiaCodeRegular) format('woff2');
+}
+
 h1 {
     font-family: 'Jost';
     font-weight: 500;
@@ -513,17 +518,21 @@ blockquote {
     letter-spacing: 0.08em;
 }
 
+kbd,
+code {
+    font-family: 'CascadiaCodeRegular', monospace !important;
+}
+
 code {
     background-color: #f4f4f4 !important;
     border-radius: 5px;
-    font-family: 'Roboto Mono', monospace !important;
     font-size: 90% !important;
     padding: 0.3em 0.5em !important;
     white-space: pre;
 }
 
 pre code {
-    padding: .5em .9em !important;
+    padding: 0.5em 0.9em !important;
 }
 
 aside .title {

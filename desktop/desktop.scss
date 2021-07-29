@@ -1,5 +1,5 @@
 .fa-plus::before {
-    content: "add";
+    content: 'add';
     display: contents;
 }
 
@@ -18,20 +18,19 @@
     border-radius: 5px;
 }
 
-
 .timeline-container .topic-timeline {
-    margin-left: 3em!important;
+    margin-left: 3em !important;
 }
 
 #topic-title .title-wrapper {
-margin: 0!important
+    margin: 0 !important;
 }
 
 .posts-wrapper {
-    margin: 0!important;
+    margin: 0 !important;
 }
 
 .discourse-no-touch .btn:hover,
 .discourse-no-touch .btn.btn-hover {
-    color:var(--secondary-high);
+    color: var(--secondary-high);
 }

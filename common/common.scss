@@ -1,8 +1,11 @@
-
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url($CascadiaCode) format('woff2');
+}
 
 h1 {
- font-family: 'Jost';
- font-weight: 500;
+    font-family: 'Jost';
+    font-weight: 500;
 }
 
 h3 {
@@ -11,24 +14,42 @@ h3 {
     font-weight: 400;
 }
 
-h1              { font-size: 2em; margin: .67em 0 }
-h2              { font-size: 1.5em; margin: .75em 0 }
-h3              { font-size: 1.17em; margin: .83em 0 }
-h5              { font-size: .83em; margin: 1.5em 0 }
-h6              { font-size: .75em; margin: 1.67em 0 }
-h1, h2, h3, h4,
-h5, h6          { font-weight: bolder }
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+h2 {
+    font-size: 1.5em;
+    margin: 0.75em 0;
+}
+h3 {
+    font-size: 1.17em;
+    margin: 0.83em 0;
+}
+h5 {
+    font-size: 0.83em;
+    margin: 1.5em 0;
+}
+h6 {
+    font-size: 0.75em;
+    margin: 1.67em 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bolder;
+}
 
-.admin-main-nav .nav-pills>li {
+.admin-main-nav .nav-pills > li {
     margin: 0 4px;
 }
 
-
-
-
 .d-header {
     box-shadow: none;
-    border-bottom: 1px solid #DDD;
+    border-bottom: 1px solid #ddd;
     transition: box-shadow 0.2s;
 }
 
@@ -37,7 +58,7 @@ h5, h6          { font-weight: bolder }
 #toggle-hamburger-menu i::before,
 #toggle-messages-menu i::before {
     font-size: 24px;
-    color: #4527A0;
+    color: #4527a0;
 }
 
 #discord-button,
@@ -54,7 +75,7 @@ h5, h6          { font-weight: bolder }
 #toggle-hamburger-menu:hover,
 #current-user:hover,
 #toggle-messages-menu:hover {
-    background-color: #EEE !important;
+    background-color: #eee !important;
 }
 
 #current-user a {
@@ -68,7 +89,7 @@ h5, h6          { font-weight: bolder }
 .category-drop-header,
 .tag-drop-header {
     border-radius: 5px;
-    border-color: #DDD !important;
+    border-color: #ddd !important;
 }
 
 .category-drop-header.is-focused,
@@ -90,7 +111,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .badge-notification.new-topic {
-    color: #4527A0;
+    color: #4527a0;
 }
 
 .badge-wrapper.bullet {
@@ -103,7 +124,6 @@ h5, h6          { font-weight: bolder }
 }
 
 .topic-list .badge-notification {
-
     margin: 0;
     font-family: 'Jost';
     font-weight: 400;
@@ -137,8 +157,8 @@ h5, h6          { font-weight: bolder }
 
 #create-topic {
     border-radius: 5px;
-    background-color: #4527A0 !important;
-    color: #FFF;
+    background-color: #4527a0 !important;
+    color: #fff;
     display: block;
 }
 
@@ -147,7 +167,7 @@ h5, h6          { font-weight: bolder }
 }
 
 #create-topic i {
-    color: #FFF;
+    color: #fff;
     font-size: 17px !important;
     vertical-align: middle;
     line-height: 0 !important;
@@ -156,7 +176,7 @@ h5, h6          { font-weight: bolder }
 }
 
 #create-topic svg {
-    color: #FFF;
+    color: #fff;
 }
 
 #navigation-bar .ember-view a {
@@ -167,12 +187,12 @@ h5, h6          { font-weight: bolder }
 }
 
 #navigation-bar .ember-view a.active {
-    background-color: #4527A0 !important;
-    color: #FFF !important;
+    background-color: #4527a0 !important;
+    color: #fff !important;
 }
 
 .contents.ember-view {
-    border: 1px solid #DDD;
+    border: 1px solid #ddd;
     border-radius: 5px;
     overflow: hidden;
 }
@@ -187,17 +207,17 @@ h5, h6          { font-weight: bolder }
 }
 
 .topic-list.ember-view > tbody {
-    border-top: 1px solid #DDD !important;
+    border-top: 1px solid #ddd !important;
 }
 
 #navigation-bar .ember-view a:not(.active):hover {
-    background-color: #C7BEE3 !important;
-    color: #4527A0 !important;
+    background-color: #c7bee3 !important;
+    color: #4527a0 !important;
 }
 
 .mdl-button--icon i {
     line-height: 32px;
-    color: #4527A0;
+    color: #4527a0;
 }
 
 #topic-title .title-wrapper {
@@ -210,7 +230,7 @@ h5, h6          { font-weight: bolder }
     width: 800px;
     margin: 0 auto;
     padding: 15px 0;
-    border: 1px solid #DDD;
+    border: 1px solid #ddd;
     border-radius: 5px;
 }
 
@@ -219,16 +239,14 @@ h5, h6          { font-weight: bolder }
     border-top: 0 !important;
 }
 
-
 .topic-post {
     padding: 0 15px;
 }
 
 .topic-post:not(:first-child),
 .time-gap {
-    border-top: 1px solid #DDD;
+    border-top: 1px solid #ddd;
 }
-
 
 .time-gap {
     max-width: 800px !important;
@@ -255,7 +273,7 @@ h5, h6          { font-weight: bolder }
 #topic-footer-button-bookmark,
 #topic-footer-button-share-and-invite,
 #topic-footer-button-flag {
-    border: 1px solid #DDD;
+    border: 1px solid #ddd;
     background: transparent;
     border-radius: 5px;
     font-family: 'Jost';
@@ -267,7 +285,7 @@ h5, h6          { font-weight: bolder }
 #topic-footer-button-share-and-invite:hover,
 #topic-footer-button-flag:hover {
     color: #444;
-    background-color: #EEE;
+    background-color: #eee;
 }
 
 #topic-footer-button-bookmark i,
@@ -285,7 +303,7 @@ h5, h6          { font-weight: bolder }
 #topic-footer-buttons .create.btn {
     float: right;
     border-radius: 5px;
-    background-color: #4527A0 !important;
+    background-color: #4527a0 !important;
     margin-right: 0;
     font-family: 'Jost';
     font-weight: 400;
@@ -297,7 +315,7 @@ h5, h6          { font-weight: bolder }
 }
 
 #topic-footer-buttons .topic-notifications-button .btn {
-    border: 1px solid #DDD;
+    border: 1px solid #ddd;
     border-radius: 5px;
     background: transparent;
     outline: none !important;
@@ -308,13 +326,13 @@ h5, h6          { font-weight: bolder }
 }
 
 .alert.alert-info.clickable a {
-    color: #4527A0;
+    color: #4527a0;
     font-family: 'Jost';
     font-weight: 400;
 }
 
 .alert.alert-info {
-       background-color: #fff;
+    background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-bottom: 8px;
@@ -329,7 +347,7 @@ h5, h6          { font-weight: bolder }
 }
 
 #suggested-topics {
-    border: 1px solid #DDD;
+    border: 1px solid #ddd;
     border-radius: 5px;
     padding: 0;
     margin-bottom: 20px;
@@ -348,7 +366,7 @@ h5, h6          { font-weight: bolder }
     font-weight: 400;
     margin: 0;
     padding: 5px 10px;
-    border-bottom: 1px solid #DDD;
+    border-bottom: 1px solid #ddd;
 }
 
 .suggested-topics table,
@@ -374,7 +392,7 @@ h5, h6          { font-weight: bolder }
     border-radius: 5px;
     background: transparent;
     margin: 0 0 20px 0;
-    border: 1px solid #DDD;
+    border: 1px solid #ddd;
 }
 
 .topic-map section {
@@ -383,13 +401,13 @@ h5, h6          { font-weight: bolder }
 }
 
 .topic-map section:not(:first-child) {
-    border-top: 1px solid #DDD;
+    border-top: 1px solid #ddd;
 }
 
 .topic-map .buttons .btn {
     background: transparent;
     border: 0;
-    border-left: 1px solid #DDD;
+    border-left: 1px solid #ddd;
 }
 
 .topic-map .buttons .btn i::before {
@@ -437,7 +455,7 @@ h5, h6          { font-weight: bolder }
 .post-controls button.reply,
 .post-controls button.show-replies {
     height: 30px;
-    border: 1px solid #DDD;
+    border: 1px solid #ddd;
     border-radius: 5px;
     font-family: 'Jost';
     font-weight: 400;
@@ -461,13 +479,11 @@ h5, h6          { font-weight: bolder }
 }
 
 nav.post-controls .actions button {
-vertical-align: initial;
+    vertical-align: initial;
 }
 
 nav.post-controls button {
-
     border-radius: 5px;
-
 }
 
 nav.post-controls button:active {
@@ -482,40 +498,49 @@ nav.post-controls .double-button button.has-like .d-icon {
     color: #4527a0;
 }
 
-nav.post-controls .double-button button.has-like {
-
-}
+// nav.post-controls .double-button button.has-like {}
 
 blockquote::after,
 blockquote::before {
     display: none;
 }
 
-blockquote,
-code {
-    border-radius: 5px;
-    border: 1px solid #DDD;
-}
-
 blockquote {
-    border-left: 5px solid #DDD;
-    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    border-left: 5px solid #ddd;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
     position: relative;
     font-size: 14px;
     font-weight: 300;
     line-height: 1.35;
     font-style: normal;
-    letter-spacing: .08em;
+    letter-spacing: 0.08em;
 }
 
+kbd,
+code {
+    font-family: 'Cascadia Code', monospace !important;
+}
 
+code {
+    background-color: #f4f4f4 !important;
+    border-radius: 5px;
+    font-size: 90% !important;
+    padding: 0.3em 0.5em !important;
+    white-space: pre;
+}
+
+pre code {
+    padding: 0.5em 0.9em !important;
+}
 
 aside .title {
     line-height: 100%;
     border-radius: 5px 5px 0 0;
-    border: 1px solid #DDD;
+    border: 1px solid #ddd;
     border-bottom: 0;
-    border-left: 5px solid #DDD !important;
+    border-left: 5px solid #ddd !important;
     font-family: 'Jost';
     font-weight: 400;
 }
@@ -524,8 +549,6 @@ aside blockquote {
     border-radius: 0 0 5px 5px;
     border-top: 0;
 }
-
-
 
 .lightbox .meta {
     border-radius: 0 0 5px 5px;
@@ -542,22 +565,22 @@ aside blockquote {
 }
 
 #topic-progress {
-    border: 1px solid #DDD;
+    border: 1px solid #ddd;
     border-radius: 5px 5px 0 0;
 }
 
 #topic-progress .nums {
-    color: #4527A0;
+    color: #4527a0;
 }
 
 #topic-progress .bg {
-    background-color: #C7BEE3;
+    background-color: #c7bee3;
 }
 
 #dismiss-topics,
-#topic-footer-buttons .pinned-button .btn{
-    background: #FFF;
-    border: 1px solid #DDD;
+#topic-footer-buttons .pinned-button .btn {
+    background: #fff;
+    border: 1px solid #ddd;
     border-radius: 5px;
     font-family: 'Jost';
     font-weight: 400;
@@ -569,7 +592,8 @@ aside blockquote {
     border: 0;
 }
 
-.latest-topic-list .table-heading, .top-topic-list .table-heading tbody {
+.latest-topic-list .table-heading,
+.top-topic-list .table-heading tbody {
     border: 0;
     border-bottom: 1px var(--primary-low) solid;
 }
@@ -592,12 +616,12 @@ aside blockquote {
 }
 
 .category-list div.category-description {
-        font-family: 'Jost';
+    font-family: 'Jost';
     font-size: 14px;
 }
 
 .category-list tbody .category h3 {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 .topic-status > i::before {
@@ -605,7 +629,7 @@ aside blockquote {
 }
 
 #carbonads {
-    border: 1px solid #DDD !important;
+    border: 1px solid #ddd !important;
     border-radius: 5px;
 }
 
@@ -616,7 +640,7 @@ aside blockquote {
 #whos-online {
     padding: 10px !important;
     margin: 0;
-    border: 1px solid #DDD;
+    border: 1px solid #ddd;
     border-radius: 5px;
     margin-bottom: 15px;
 }
@@ -626,7 +650,7 @@ aside blockquote {
 }
 
 .post-notice {
-    background: #DDD;
+    background: #ddd;
     border-radius: 5px;
     max-width: 100%;
 }
@@ -663,31 +687,24 @@ aside blockquote {
 }
 
 .edit-topic:hover {
-    background: #EEE;
+    background: #eee;
 }
-
 
 a {
     font-weight: 400;
 }
 
-
-
-
-.nav-pills>li a.active {
+.nav-pills > li a.active {
     color: #fff;
     background-color: #4527a0;
     border-radius: 5px;
 }
 
 .btn-primary {
-
     border-radius: 5px;
-
 }
 
-.nav-pills>li>a {
-
+.nav-pills > li > a {
     border-radius: 5px;
 }
 
@@ -709,13 +726,12 @@ a {
     border-radius: 8px;
 }
 
-.d-editor-textarea-wrapper, .d-editor-preview-wrapper {
+.d-editor-textarea-wrapper,
+.d-editor-preview-wrapper {
     width: -webkit-fill-available;
 }
 
-
 .bootbox.modal {
-
     border-radius: 5px;
 }
 
@@ -725,12 +741,10 @@ a {
     border-radius: 5px;
 }
 
-    .select-kit.combo-box .select-kit-header {
+.select-kit.combo-box .select-kit-header {
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
-
-
 }
 
 #reply-control #reply-title {
@@ -738,25 +752,53 @@ a {
     border: 1px solid #ddd;
 }
 
-input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus {
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='datetime']:focus,
+input[type='datetime-local']:focus,
+input[type='date']:focus,
+input[type='month']:focus,
+input[type='time']:focus,
+input[type='week']:focus,
+input[type='number']:focus,
+input[type='email']:focus,
+input[type='url']:focus,
+input[type='search']:focus,
+input[type='tel']:focus,
+input[type='color']:focus {
     border: 1px solid #4527a0;
     outline: 0;
 }
 
-input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+input[type='text'],
+input[type='password'],
+input[type='datetime'],
+input[type='datetime-local'],
+input[type='date'],
+input[type='month'],
+input[type='time'],
+input[type='week'],
+input[type='number'],
+input[type='email'],
+input[type='url'],
+input[type='search'],
+input[type='tel'],
+input[type='color'] {
     border: 1px solid #ddd;
     border-radius: 5px;
-
 }
 
-input, textarea {
+input,
+textarea {
     margin-left: 0;
     border-radius: 5px;
     border: 1px #ddd solid;
 }
 
-
-.menu-panel li a.widget-link:hover, .menu-panel li a.widget-link:focus, .menu-panel li.heading a.widget-link:hover, .menu-panel li.heading a.widget-link:focus {
+.menu-panel li a.widget-link:hover,
+.menu-panel li a.widget-link:focus,
+.menu-panel li.heading a.widget-link:hover,
+.menu-panel li.heading a.widget-link:focus {
     border-radius: 5px;
 }
 
@@ -773,12 +815,12 @@ input, textarea {
 }
 
 .badge-card .badge-contents .badge-info {
-    font-family: "Jost";
+    font-family: 'Jost';
     font-weight: 400;
 }
 
 .badge-card:hover {
-    box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
 }
 
 .spinner {
@@ -793,11 +835,9 @@ input, textarea {
     border-radius: 50%;
 }
 
-
-#user-card.show, #group-card.show {
-
+#user-card.show,
+#group-card.show {
     border-radius: 5px;
-
 }
 
 .timeline-container .topic-timeline {
@@ -816,26 +856,26 @@ input, textarea {
 
 div.menu-links-header .menu-links-row li a.active {
     border: 1px solid #e6e6e6;
-border-bottom: 1px #fff solid;
+    border-bottom: 1px #fff solid;
     position: relative;
     border-radius: 5px 5px 0 0;
 }
 
-.search-menu input[type="text"] {
-    font-family: "Jost";
+.search-menu input[type='text'] {
+    font-family: 'Jost';
     border-radius: 5px;
     border: 1px #ddd solid;
 }
 
 .panel-body-contents .search-context label {
-    font-family: "Jost";
+    font-family: 'Jost';
 }
 
-.user-menu .quick-access-panel li:hover, .user-menu .quick-access-panel li:focus {
+.user-menu .quick-access-panel li:hover,
+.user-menu .quick-access-panel li:focus {
     border-radius: 5px;
     transition: background 0.3s;
 }
-
 
 .user-menu .quick-access-panel li {
     background-color: #e1d9f6;
@@ -858,13 +898,10 @@ i.fa.fa-shield-alt.d-icon.d-icon-shield-alt:before {
 .topic-avatar i.fa.fa-user-plus.d-icon.d-icon-user-plus:before,
 .topic-avatar i.fa.fa-lock.d-icon.d-icon-lock::before,
 .topic-avatar i.fa.fa-unlock-alt.d-icon.d-icon-unlock-alt::before {
- font-size: 2em;
- padding-left: 10px
+    font-size: 2em;
+    padding-left: 10px;
 }
-
 
 div.select-kit.is-expanded .select-kit-body {
-  position: static;
+    position: static;
 }
-
-

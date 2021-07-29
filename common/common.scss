@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'CascadiaCodeRegular';
-    src: url($CascadiaCodeRegular) format('woff2');
+    font-family: 'Cascadia Code';
+    src: url($CascadiaCode) format('woff2');
 }
 
 h1 {
@@ -520,7 +520,7 @@ blockquote {
 
 kbd,
 code {
-    font-family: 'CascadiaCodeRegular', monospace !important;
+    font-family: 'Cascadia Code', monospace !important;
 }
 
 code {

@@ -500,13 +500,9 @@ blockquote::before {
     display: none;
 }
 
-blockquote,
-code {
+blockquote {
     border-radius: 5px;
     border: 1px solid #ddd;
-}
-
-blockquote {
     border-left: 5px solid #ddd;
     font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
     position: relative;
@@ -515,6 +511,19 @@ blockquote {
     line-height: 1.35;
     font-style: normal;
     letter-spacing: 0.08em;
+}
+
+code {
+    background-color: #f4f4f4 !important;
+    border-radius: 5px;
+    font-family: 'Roboto Mono', monospace !important;
+    font-size: 90% !important;
+    padding: 0.3em 0.5em !important;
+    white-space: pre;
+}
+
+pre code {
+    padding: .5em .9em !important;
 }
 
 aside .title {

@@ -1,0 +1,23 @@
+.user-menu .quick-access-panel li:hover,
+.user-menu .quick-access-panel li:focus {
+    border-radius: 5px;
+    transition: background 0.2s;
+}
+
+.user-menu .quick-access-panel li {
+    background-color: var(--tertiary-300);
+    border-radius: 5px;
+    color: var(--tertiary);
+}
+
+body.dark-knight {
+    .user-menu .quick-access-panel li {
+        background-color: var(--secondary-400);
+        & a>div {
+            color: var(--primary-700);
+        }
+    }
+    .user-menu .quick-access-panel li:hover {
+        background-color: var(--primary-200);
+    }
+}

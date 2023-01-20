@@ -5,6 +5,7 @@
 @import "kodular/spinner.scss";
 @import "kodular/topic.scss";
 @import "kodular/buttons.scss";
+@import "kodular/user-menu.scss";
 
 
 body.dark-knight {
@@ -692,17 +693,6 @@ div.menu-links-header .menu-links-row li a.active {
 }
 
 
-
-.user-menu .quick-access-panel li:hover,
-.user-menu .quick-access-panel li:focus {
-    border-radius: 5px;
-    transition: background 0.3s;
-}
-
-.user-menu .quick-access-panel li {
-    background-color: #e1d9f6;
-    border-radius: 5px;
-}
 
 i.fa.fa-shield-alt.d-icon.d-icon-shield-alt:before {
     font-size: 1.2em;

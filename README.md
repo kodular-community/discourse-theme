@@ -1,6 +1,6 @@
-### **Kodular Material 2 - Light**
+### **Kodular Material 2**
 
-Kodular Material Light is a theme for forums running [Discourse](https://discourse.org), inspired in Kodular's main service design: [Kodular Creator](https://creator.kodular.io)
+Kodular Material is a theme for forums running [Discourse](https://discourse.org), inspired in Kodular's main service design: [Kodular Creator](https://creator.kodular.io)
 
 ![latest-topics](https://d11a6trkgmumsb.cloudfront.net/original/3X/9/8/98159af8f7a83d6d5b993ab4e21a8e51b1cf1e0c.png)
 

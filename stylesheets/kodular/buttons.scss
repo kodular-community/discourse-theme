@@ -1,10 +1,15 @@
 body.dark-knight {
-    
+
     .btn-primary {
         color: var(--primary)
     }
 
     .btn-primary .d-icon {
         color: var(--primary)
+    }
+
+    .btn-primary:hover, .btn-primary.btn-hover {
+        background-color: var(--tertiary-medium);
+        color: var(--primary);
     }
 }

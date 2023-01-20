@@ -155,9 +155,6 @@ body.dark-knight {
     color: #444;
 }
 
-.topic-list > tbody {
-    border-top: 1px solid #ddd !important;
-}
 
 #navigation-bar a:not(.active):hover {
     background-color: var(--primary-low) !important;
@@ -492,15 +489,8 @@ aside blockquote {
     outline: none;
 }
 
-.category-list > tbody {
-    border: 0;
-}
 
-.latest-topic-list .table-heading,
-.top-topic-list .table-heading tbody {
-    border: 0;
-    border-bottom: 1px var(--primary-low) solid;
-}
+
 
 .category-list > tbody .category {
     border-width: 8px;

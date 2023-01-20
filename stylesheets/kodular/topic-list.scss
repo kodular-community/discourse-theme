@@ -1,3 +1,21 @@
-:root {
-    
+.topic-list-item:nth-child(even) {
+    background-color: var(--tertiary-50);
+}
+
+body.dark-knight .topic-list-item:nth-child(even) {
+    background-color: var(--secondary);
+}
+
+#list-area {
+    border: 1px solid var(--primary-low);
+    border-radius: 8px;
+}
+
+.topic-list-header {
+    border: 0;
+    border-bottom: 1px var(--primary-low) solid;
+}
+
+#list-area tbody {
+    border-top: 0;
 }

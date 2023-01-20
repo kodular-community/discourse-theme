@@ -21,6 +21,18 @@
       "danger": "e43535",
       "success": "1ca551",
       "love": "4527a0"
+    },
+    "Dark Knight Rises": {
+      "primary": "FFFFFF",
+      "secondary": "111111",
+      "tertiary": "4527a0",
+      "quaternary": "4527a0",
+      "header_background": "111111",
+      "header_primary": "EEEEEE",
+      "highlight": "a18ddf",
+      "danger": "e43535",
+      "success": "1ca551",
+      "love": "4527a0"
     }
   },
   "modifiers": {},

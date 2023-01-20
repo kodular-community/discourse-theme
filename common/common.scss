@@ -157,8 +157,13 @@ body.dark-knight {
 
 
 #navigation-bar a:not(.active):hover {
-    background-color: var(--primary-low) !important;
-    color: var(--tertiary) !important;
+    background-color: var(--primary-low);
+    color: var(--tertiary);
+}
+
+body.dark-knight #navigation-bar a:not(.active):hover {
+    background-color: var(--primary-low);
+    color: var(--primary-500);
 }
 
 .mdl-button--icon i {

@@ -1,3 +1,5 @@
+@import "kodular/mobile/select-kits.scss";
+
 .alert.alert-info {
     margin-bottom: 8px;
 }
@@ -28,9 +30,8 @@
     border: 1px solid #ddd;
 }
 
-#navigation-bar .ember-view a {
+#navigation-bar a {
     border-radius: 5px;
-    font-family: 'Jost*';
     font-weight: 400;
     padding-left: 8px;
     color: #444 !important;
@@ -55,7 +56,7 @@
     margin-bottom: 20px;
 }
 
-.loading-container.ember-view {
+.loading-container {
     width: 100%;
     margin: 0 auto;
 }

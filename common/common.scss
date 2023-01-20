@@ -1,6 +1,12 @@
 @import "kodular/fonts.scss";
 @import "kodular/topic-list.scss";
 @import "kodular/variables.scss";
+@import "kodular/select-kits.scss";
+@import "kodular/spinner.scss";
+@import "kodular/topic.scss";
+
+
+
 
 
 
@@ -19,7 +25,7 @@
 #toggle-hamburger-menu i::before,
 #toggle-messages-menu i::before {
     font-size: 24px;
-    color: #4527a0;
+    color: var(--tertiary);
 }
 
 #discord-button,
@@ -72,7 +78,7 @@
 }
 
 .badge-notification.new-topic {
-    color: #4527a0;
+    color: var(--tertiary);
 }
 
 .badge-wrapper.bullet {
@@ -94,16 +100,7 @@
     font-weight: 400;
 }
 
-.title-wrapper *,
-.category-name,
-.selected-name,
-.topic-list-item a.title,
-.username,
-.post-info.edits,
-.post-date,
-#create-topic {
-    font-weight: 400;
-}
+
 
 .moderator .regular > .cooked {
     background-color: lightyellow;
@@ -115,7 +112,7 @@
 
 #create-topic {
     border-radius: 5px;
-    background-color: #4527a0 !important;
+    background-color: var(--tertiary) !important;
     color: #fff;
     display: block;
 }
@@ -144,7 +141,7 @@
 }
 
 #navigation-bar a.active {
-    background-color: #4527a0 !important;
+    background-color: var(--tertiary) !important;
     color: #fff !important;
 }
 
@@ -162,28 +159,15 @@
 }
 
 #navigation-bar a:not(.active):hover {
-    background-color: #c7bee3 !important;
-    color: #4527a0 !important;
+    background-color: var(--primary-low) !important;
+    color: var(--tertiary) !important;
 }
 
 .mdl-button--icon i {
     line-height: 32px;
-    color: #4527a0;
+    color: var(--tertiary);
 }
 
-#topic-title .title-wrapper {
-    margin: 0 auto;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-
-.posts-wrapper {
-    width: 800px;
-    margin: 0 auto;
-    padding: 15px 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
 
 .topic-body,
 .topic-avatar {
@@ -252,7 +236,7 @@
 #topic-footer-buttons .create.btn {
     float: right;
     border-radius: 5px;
-    background-color: #4527a0 !important;
+    background-color: var(--tertiary) !important;
     margin-right: 0;
     font-weight: 400;
     cursor: pointer;
@@ -274,7 +258,7 @@
 }
 
 .alert.alert-info.clickable a {
-    color: #4527a0;
+    color: var(--tertiary);
     font-weight: 400;
 }
 
@@ -438,7 +422,7 @@ nav.post-controls button:not(.reply) i::before {
 }
 
 nav.post-controls .double-button button.has-like .d-icon {
-    color: #4527a0;
+    color: var(--tertiary);
 }
 
 // nav.post-controls .double-button button.has-like {}
@@ -496,15 +480,6 @@ aside blockquote {
     border-radius: 0 0 5px 5px;
 }
 
-.select-kit-body {
-    border-radius: 5px !important;
-    overflow: hidden;
-    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2) !important;
-}
-
-.select-kit-body ul {
-    scrollbar-width: thin;
-}
 
 #topic-progress {
     border: 1px solid #ddd;
@@ -512,11 +487,11 @@ aside blockquote {
 }
 
 #topic-progress .nums {
-    color: #4527a0;
+    color: var(--tertiary);
 }
 
 #topic-progress .bg {
-    background-color: #c7bee3;
+    background-color: var(--tertiary-100);
 }
 
 #dismiss-topics,
@@ -630,13 +605,9 @@ aside blockquote {
     background: #eee;
 }
 
-a {
-    font-weight: 400;
-}
-
 .nav-pills > li a.active {
     color: #fff;
-    background-color: #4527a0;
+    background-color: var(--tertiary);
     border-radius: 5px;
 }
 
@@ -675,17 +646,6 @@ a {
     border-radius: 5px;
 }
 
-.select-kit.combo-box .select-kit-header.is-focused {
-    border: 1px solid #4527a0;
-    box-shadow: 0 0 0px 0 #4527a0;
-    border-radius: 5px;
-}
-
-.select-kit.combo-box .select-kit-header {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
 
 #reply-control #reply-title {
     border-radius: 5px;
@@ -706,7 +666,7 @@ input[type='url']:focus,
 input[type='search']:focus,
 input[type='tel']:focus,
 input[type='color']:focus {
-    border: 1px solid #4527a0;
+    border: 1px solid var(--tertiary);
     outline: 0;
 }
 
@@ -762,17 +722,6 @@ textarea {
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
 }
 
-.spinner {
-    margin: 20px auto 20px auto;
-    position: relative;
-    -webkit-animation: rotate-forever 0.8s infinite linear;
-    animation: rotate-forever 0.8s infinite linear;
-    height: 30px;
-    width: 30px;
-    border: 4px solid #4527a0;
-    border-right-color: transparent;
-    border-radius: 50%;
-}
 
 #user-card.show,
 #group-card.show {
@@ -838,6 +787,3 @@ i.fa.fa-shield-alt.d-icon.d-icon-shield-alt:before {
     padding-left: 10px;
 }
 
-div.select-kit.is-expanded .select-kit-body {
-    position: static;
-}

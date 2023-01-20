@@ -5,8 +5,7 @@
   "about_url": null,
   "authors": null,
   "theme_version": "1",
-  "minimum_discourse_version": null,
-  "maximum_discourse_version": null,
+  "minimum_discourse_version": "3.1.0.beta1",
   "assets": {
     "CascadiaCode": "assets/CascadiaCode.woff2"
   },

@@ -6,6 +6,8 @@
 @import "kodular/topic.scss";
 @import "kodular/buttons.scss";
 @import "kodular/user-menu.scss";
+@import "kodular/cards.scss";
+
 
 
 body.dark-knight {
@@ -642,24 +644,6 @@ textarea {
 .menu-panel li.heading a.widget-link:focus {
     border-radius: 5px;
 }
-
-.badge-card.medium {
-    border-radius: 5px;
-    border: 1px #ddd solid;
-    background-color: white;
-}
-
-.badge-card {
-    border-radius: 5px;
-    border: 1px #ddd solid;
-    background-color: white;
-}
-
-
-.badge-card:hover {
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
-}
-
 
 #user-card.show,
 #group-card.show {

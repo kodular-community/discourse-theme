@@ -1,0 +1,20 @@
+.badge-card.medium {
+    border-radius: 5px;
+    border: 1px var(--primary-200) solid;
+    background-color: white;
+}
+
+.badge-card {
+    border-radius: 5px;
+    border: 1px var(--primary-200) solid;
+    background-color: var(--secondary);
+}
+
+
+.badge-card:hover {
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.badge-card .badge-contents .badge-icon .fa::before {
+    font-size: 1.2em !important;
+}

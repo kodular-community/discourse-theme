@@ -1,47 +1,8 @@
-@font-face {
-    font-family: 'Cascadia Code';
-    src: url($CascadiaCode) format('woff2');
-}
+@import "kodular/fonts.scss";
+@import "kodular/topic-list.scss";
+@import "kodular/variables.scss";
 
-h1 {
-    font-family: 'Jost';
-    font-weight: 500;
-}
 
-h3 {
-    margin: 0;
-    font-family: 'Jost';
-    font-weight: 400;
-}
-
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-}
-h2 {
-    font-size: 1.5em;
-    margin: 0.75em 0;
-}
-h3 {
-    font-size: 1.17em;
-    margin: 0.83em 0;
-}
-h5 {
-    font-size: 0.83em;
-    margin: 1.5em 0;
-}
-h6 {
-    font-size: 0.75em;
-    margin: 1.67em 0;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: bolder;
-}
 
 .admin-main-nav .nav-pills > li {
     margin: 0 4px;
@@ -125,13 +86,11 @@ h6 {
 
 .topic-list .badge-notification {
     margin: 0;
-    font-family: 'Jost';
     font-weight: 400;
     top: 0;
 }
 
 .num.views {
-    font-family: 'Jost';
     font-weight: 400;
 }
 
@@ -143,7 +102,6 @@ h6 {
 .post-info.edits,
 .post-date,
 #create-topic {
-    font-family: 'Jost';
     font-weight: 400;
 }
 
@@ -179,38 +137,31 @@ h6 {
     color: #fff;
 }
 
-#navigation-bar .ember-view a {
+#navigation-bar a {
     border-radius: 5px;
-    font-family: 'Jost';
     font-weight: 400;
     color: #444 !important;
 }
 
-#navigation-bar .ember-view a.active {
+#navigation-bar a.active {
     background-color: #4527a0 !important;
     color: #fff !important;
 }
 
-.contents.ember-view {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    overflow: hidden;
-}
 
-.topic-list.ember-view > thead > tr > th,
+.topic-list > thead > tr > th,
 .category-list .category,
 .category-list .topics {
-    font-family: 'Jost';
     font-weight: 400;
     font-size: 16px;
     color: #444;
 }
 
-.topic-list.ember-view > tbody {
+.topic-list > tbody {
     border-top: 1px solid #ddd !important;
 }
 
-#navigation-bar .ember-view a:not(.active):hover {
+#navigation-bar a:not(.active):hover {
     background-color: #c7bee3 !important;
     color: #4527a0 !important;
 }
@@ -253,7 +204,6 @@ h6 {
 }
 
 .small-action .small-action-desc.timegap {
-    font-family: 'Jost';
     font-weight: 400;
 }
 
@@ -261,7 +211,7 @@ h6 {
     border: 0;
 }
 
-.loading-container.ember-view {
+.loading-container {
     width: auto;
     margin: 0 auto;
 }
@@ -276,7 +226,6 @@ h6 {
     border: 1px solid #ddd;
     background: transparent;
     border-radius: 5px;
-    font-family: 'Jost';
     font-weight: 400;
     color: #666;
 }
@@ -305,12 +254,11 @@ h6 {
     border-radius: 5px;
     background-color: #4527a0 !important;
     margin-right: 0;
-    font-family: 'Jost';
     font-weight: 400;
     cursor: pointer;
 }
 
-.topic-notifications-button.ember-view {
+.topic-notifications-button {
     margin: 5px 0 0 0;
 }
 
@@ -327,7 +275,6 @@ h6 {
 
 .alert.alert-info.clickable a {
     color: #4527a0;
-    font-family: 'Jost';
     font-weight: 400;
 }
 
@@ -362,7 +309,6 @@ h6 {
 
 .suggested-topics-title {
     font-size: 18px;
-    font-family: 'Jost';
     font-weight: 400;
     margin: 0;
     padding: 5px 10px;
@@ -379,7 +325,6 @@ h6 {
     font-size: 16px;
     padding: 5px 10px;
     margin: 0;
-    font-family: 'Jost';
     font-weight: 400;
     color: #666;
 }
@@ -436,7 +381,6 @@ h6 {
 }
 
 .actions > .double-button > .like-count {
-    font-family: 'Jost';
     font-weight: 400;
     margin-right: 5px;
 }
@@ -457,7 +401,6 @@ h6 {
     height: 30px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    font-family: 'Jost';
     font-weight: 400;
     padding: 0 7px;
     color: #444 !important;
@@ -541,7 +484,6 @@ aside .title {
     border: 1px solid #ddd;
     border-bottom: 0;
     border-left: 5px solid #ddd !important;
-    font-family: 'Jost';
     font-weight: 400;
 }
 
@@ -582,7 +524,6 @@ aside blockquote {
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
-    font-family: 'Jost';
     font-weight: 400;
     color: #666;
     outline: none;
@@ -616,7 +557,6 @@ aside blockquote {
 }
 
 .category-list div.category-description {
-    font-family: 'Jost';
     font-size: 14px;
 }
 
@@ -815,7 +755,6 @@ textarea {
 }
 
 .badge-card .badge-contents .badge-info {
-    font-family: 'Jost';
     font-weight: 400;
 }
 
@@ -862,14 +801,11 @@ div.menu-links-header .menu-links-row li a.active {
 }
 
 .search-menu input[type='text'] {
-    font-family: 'Jost';
     border-radius: 5px;
     border: 1px #ddd solid;
 }
 
-.panel-body-contents .search-context label {
-    font-family: 'Jost';
-}
+
 
 .user-menu .quick-access-panel li:hover,
 .user-menu .quick-access-panel li:focus {

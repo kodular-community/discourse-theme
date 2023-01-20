@@ -148,14 +148,6 @@ body.dark-knight {
 }
 
 
-.topic-list > thead > tr > th,
-.category-list .category,
-.category-list .topics {
-    font-size: 16px;
-    color: #444;
-}
-
-
 #navigation-bar a:not(.active):hover {
     background-color: var(--primary-low);
     color: var(--tertiary);
@@ -272,40 +264,6 @@ body.dark-knight #navigation-bar a:not(.active):hover {
 
 .topic-list .topic-list-item-separator td span {
     text-transform: capitalize;
-}
-
-#suggested-topics {
-    border: 1px solid var(--primary-200);
-    border-radius: 5px;
-    padding: 0;
-    margin-bottom: 20px;
-}
-
-.suggested-topics {
-    border: 1px #ddd solid;
-    border-radius: 5px;
-    padding-top: 2px;
-    margin-bottom: 20px;
-}
-
-.suggested-topics-title {
-    font-size: 18px;
-    margin: 0;
-    padding: 5px 10px;
-    border-bottom: 1px solid #ddd;
-}
-
-.suggested-topics table,
-.suggested-topics .topics {
-    margin: 0;
-    padding: 0;
-}
-
-.suggested-topics-message {
-    font-size: 16px;
-    padding: 5px 10px;
-    margin: 0;
-    color: var(--primary-600);
 }
 
 #list-area {

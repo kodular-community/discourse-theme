@@ -5,3 +5,36 @@
     border-radius: 5px;
 }
 
+
+
+#suggested-topics {
+    border: 1px solid var(--primary-200);
+    border-radius: 5px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.suggested-topics {
+    border: 1px var(--primary-200) solid;
+    border-radius: 5px;
+    padding-top: 2px;
+    margin-bottom: 20px;
+}
+
+.suggested-topics-title {
+    margin: 0;
+    padding: 5px 10px;
+    border-bottom: 1px solid var(--primary-200);
+}
+
+.suggested-topics table,
+.suggested-topics .topics {
+    margin: 0;
+    padding: 0;
+}
+
+.suggested-topics-message {
+    padding: 5px 10px;
+    margin: 0;
+    color: var(--primary-600);
+}

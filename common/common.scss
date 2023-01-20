@@ -205,7 +205,7 @@ body.dark-knight {
 #topic-footer-button-bookmark,
 #topic-footer-button-share-and-invite,
 #topic-footer-button-flag {
-    border: 1px solid #ddd;
+    border: 1px solid var(--primary-200);
     background: transparent;
     border-radius: 5px;
     color: #666;
@@ -243,7 +243,7 @@ body.dark-knight {
 }
 
 #topic-footer-buttons .topic-notifications-button .btn {
-    border: 1px solid #ddd;
+    border: 1px solid var(--primary-200);
     border-radius: 5px;
     background: transparent;
     outline: none !important;
@@ -259,7 +259,7 @@ body.dark-knight {
 
 .alert.alert-info {
     background-color: #fff;
-    border: 1px solid #ddd;
+    border: 1px solid var(--primary-200);
     border-radius: 5px;
     margin-bottom: 8px;
 }
@@ -273,7 +273,7 @@ body.dark-knight {
 }
 
 #suggested-topics {
-    border: 1px solid #ddd;
+    border: 1px solid var(--primary-200);
     border-radius: 5px;
     padding: 0;
     margin-bottom: 20px;
@@ -314,7 +314,7 @@ body.dark-knight {
     border-radius: 5px;
     background: transparent;
     margin: 0 0 20px 0;
-    border: 1px solid #ddd;
+    border: 1px solid var(--primary-200);
 }
 
 .topic-map section {
@@ -375,7 +375,7 @@ body.dark-knight {
 .post-controls button.reply,
 .post-controls button.show-replies {
     height: 30px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--primary-200);
     border-radius: 5px;
     padding: 0 7px;
     color: #444 !important;
@@ -425,7 +425,7 @@ blockquote::before {
 
 blockquote {
     border-radius: 5px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--primary-200);
     border-left: 5px solid #ddd;
     font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
     position: relative;
@@ -455,7 +455,7 @@ pre code {
 aside .title {
     line-height: 100%;
     border-radius: 5px 5px 0 0;
-    border: 1px solid #ddd;
+    border: 1px solid var(--primary-200);
     border-bottom: 0;
     border-left: 5px solid #ddd !important;
 }
@@ -471,7 +471,7 @@ aside blockquote {
 
 
 #topic-progress {
-    border: 1px solid #ddd;
+    border: 1px solid var(--primary-200);
     border-radius: 5px 5px 0 0;
 }
 
@@ -486,7 +486,7 @@ aside blockquote {
 #dismiss-topics,
 #topic-footer-buttons .pinned-button .btn {
     background: #fff;
-    border: 1px solid #ddd;
+    border: 1px solid var(--primary-200);
     border-radius: 5px;
     color: #666;
     outline: none;
@@ -543,7 +543,7 @@ aside blockquote {
 #whos-online {
     padding: 10px !important;
     margin: 0;
-    border: 1px solid #ddd;
+    border: 1px solid var(--primary-200);
     border-radius: 5px;
     margin-bottom: 15px;
 }
@@ -621,7 +621,7 @@ aside blockquote {
     flex-direction: column;
     background-color: #fff;
     position: relative;
-    border: 1px solid #ddd;
+    border: 1px solid var(--primary-200);
     border-radius: 8px;
 }
 
@@ -637,7 +637,7 @@ aside blockquote {
 
 #reply-control #reply-title {
     border-radius: 5px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--primary-200);
 }
 
 input[type='text']:focus,
@@ -672,7 +672,7 @@ input[type='url'],
 input[type='search'],
 input[type='tel'],
 input[type='color'] {
-    border: 1px solid #ddd;
+    border: 1px solid var(--primary-200);
     border-radius: 5px;
 }
 

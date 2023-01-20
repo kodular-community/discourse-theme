@@ -27,7 +27,7 @@
 }
 
 .select-kit.combo-box .select-kit-header {
-    border: 1px solid #ddd;
+    border: 1px solid var(--primary-200);
     border-radius: 5px;
     transition: background-color 200ms
 }

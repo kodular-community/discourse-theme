@@ -3,7 +3,7 @@
   "component": false,
   "license_url": null,
   "about_url": null,
-  "authors": null,
+  "authors": "Vishwas Adiga, Alexander Barrios",
   "theme_version": "1",
   "minimum_discourse_version": "3.1.0.beta1",
   "assets": {

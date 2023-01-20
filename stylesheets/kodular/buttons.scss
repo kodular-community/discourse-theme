@@ -12,4 +12,12 @@ body.dark-knight {
         background-color: var(--tertiary-medium);
         color: var(--primary);
     }
+
+    .nav-stacked a.active {
+        color: var(--primary);
+    }
+
+    .nav-stacked a.active::after {
+        border-left-color: var(--primary);
+    }
 }

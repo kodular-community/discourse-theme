@@ -6,6 +6,9 @@
 @import "kodular/topic.scss";
 
 
+body.dark-knight {
+    background-color: #161616;
+}
 
 
 
@@ -16,7 +19,7 @@
 
 .d-header {
     box-shadow: none;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid var(--primary-100);
     transition: box-shadow 0.2s;
 }
 
@@ -25,7 +28,6 @@
 #toggle-hamburger-menu i::before,
 #toggle-messages-menu i::before {
     font-size: 24px;
-    color: var(--tertiary);
 }
 
 #discord-button,
@@ -37,12 +39,17 @@
     margin: 0 3px;
 }
 
+.d-header-icons .d-icon {
+    color: var(--tertiary);
+}
+
 #discord-button:hover,
 #search-button:hover,
 #toggle-hamburger-menu:hover,
 #current-user:hover,
 #toggle-messages-menu:hover {
-    background-color: #eee !important;
+    background-color: var(--primary-200) !important;
+    color: var(--primary-500)!important;
 }
 
 #current-user a {
@@ -56,7 +63,7 @@
 .category-drop-header,
 .tag-drop-header {
     border-radius: 5px;
-    border-color: #ddd !important;
+    border-color: var(--primary-200) !important;
 }
 
 .category-drop-header.is-focused,
@@ -92,13 +99,9 @@
 
 .topic-list .badge-notification {
     margin: 0;
-    font-weight: 400;
     top: 0;
 }
 
-.num.views {
-    font-weight: 400;
-}
 
 
 
@@ -136,8 +139,7 @@
 
 #navigation-bar a {
     border-radius: 5px;
-    font-weight: 400;
-    color: #444 !important;
+    color: var(--primary-900)
 }
 
 #navigation-bar a.active {
@@ -149,7 +151,6 @@
 .topic-list > thead > tr > th,
 .category-list .category,
 .category-list .topics {
-    font-weight: 400;
     font-size: 16px;
     color: #444;
 }
@@ -187,9 +188,6 @@
     max-width: 800px !important;
 }
 
-.small-action .small-action-desc.timegap {
-    font-weight: 400;
-}
 
 .topic-status-info {
     border: 0;
@@ -210,7 +208,6 @@
     border: 1px solid #ddd;
     background: transparent;
     border-radius: 5px;
-    font-weight: 400;
     color: #666;
 }
 
@@ -238,7 +235,6 @@
     border-radius: 5px;
     background-color: var(--tertiary) !important;
     margin-right: 0;
-    font-weight: 400;
     cursor: pointer;
 }
 
@@ -259,7 +255,6 @@
 
 .alert.alert-info.clickable a {
     color: var(--tertiary);
-    font-weight: 400;
 }
 
 .alert.alert-info {
@@ -293,7 +288,6 @@
 
 .suggested-topics-title {
     font-size: 18px;
-    font-weight: 400;
     margin: 0;
     padding: 5px 10px;
     border-bottom: 1px solid #ddd;
@@ -309,8 +303,7 @@
     font-size: 16px;
     padding: 5px 10px;
     margin: 0;
-    font-weight: 400;
-    color: #666;
+    color: var(--primary-600);
 }
 
 #list-area {
@@ -365,7 +358,6 @@
 }
 
 .actions > .double-button > .like-count {
-    font-weight: 400;
     margin-right: 5px;
 }
 
@@ -385,7 +377,6 @@
     height: 30px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    font-weight: 400;
     padding: 0 7px;
     color: #444 !important;
 }
@@ -439,7 +430,6 @@ blockquote {
     font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
     position: relative;
     font-size: 14px;
-    font-weight: 300;
     line-height: 1.35;
     font-style: normal;
     letter-spacing: 0.08em;
@@ -468,7 +458,6 @@ aside .title {
     border: 1px solid #ddd;
     border-bottom: 0;
     border-left: 5px solid #ddd !important;
-    font-weight: 400;
 }
 
 aside blockquote {
@@ -499,7 +488,6 @@ aside blockquote {
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
-    font-weight: 400;
     color: #666;
     outline: none;
 }
@@ -714,9 +702,6 @@ textarea {
     background-color: white;
 }
 
-.badge-card .badge-contents .badge-info {
-    font-weight: 400;
-}
 
 .badge-card:hover {
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);

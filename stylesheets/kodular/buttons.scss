@@ -20,4 +20,12 @@ body.dark-knight {
     .nav-stacked a.active::after {
         border-left-color: var(--primary);
     }
+    
+    a:visited {
+        color: var(--tertiary-hover);
+    }
+
+    a {
+        color: var(--tertiary-hover);
+    }
 }

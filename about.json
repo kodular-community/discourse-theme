@@ -7,7 +7,8 @@
   "theme_version": "2",
   "minimum_discourse_version": "3.1.0.beta1",
   "assets": {
-    "CascadiaCode": "assets/CascadiaCode.woff2"
+    "CascadiaCode": "assets/CascadiaCode.woff2",
+    "icons-sprite": "assets/mdi-outline.svg"
   },
   "color_schemes": {
     "Material Light": {

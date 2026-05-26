@@ -1,0 +1,13 @@
+.composer-floating {
+    position: fixed;
+    right: 16px;
+    bottom: 24px;
+    z-index: 9999;
+}
+
+.composer-panel {
+    background: var(--md-sys-surface-container);
+    border-radius: var(--radius-md);
+    box-shadow: var(--elev-2);
+    padding: var(--space-3);
+}

@@ -1,0 +1,9 @@
+.topic-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+}
+
+.topic-list-item {
+    list-style: none;
+}

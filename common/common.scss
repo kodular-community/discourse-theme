@@ -1,3 +1,6 @@
+@import "brand/_index.scss";
+@import "app/_index.scss";
+
 @import "kodular/fonts.scss";
 @import "kodular/topic-list.scss";
 @import "kodular/variables.scss";
@@ -17,7 +20,7 @@ body.dark-knight {
 
 
 
-.admin-main-nav .nav-pills > li {
+.admin-main-nav .nav-pills>li {
     margin: 0 4px;
 }
 
@@ -47,7 +50,7 @@ body.dark-knight {
 #current-user:hover,
 #toggle-messages-menu:hover {
     background-color: var(--primary-200) !important;
-    color: var(--primary-500)!important;
+    color: var(--primary-500) !important;
 }
 
 #current-user a {
@@ -78,7 +81,7 @@ body.dark-knight {
     border-radius: 2px;
 }
 
-.badge-category-parent-bg ~ .badge-category-bg {
+.badge-category-parent-bg~.badge-category-bg {
     border-radius: 0 2px 2px 0;
 }
 
@@ -103,7 +106,7 @@ body.dark-knight {
 
 
 
-.moderator .regular > .cooked {
+.moderator .regular>.cooked {
     background-color: lightyellow;
 }
 
@@ -291,7 +294,7 @@ body.dark-knight #navigation-bar a:not(.active):hover {
     color: #444;
 }
 
-.title-wrapper > h1 > div > span > .fa-lock::before {
+.title-wrapper>h1>div>span>.fa-lock::before {
     vertical-align: middle;
     padding-bottom: 5px;
     font-size: 22px;
@@ -302,11 +305,11 @@ body.dark-knight #navigation-bar a:not(.active):hover {
     margin: 0 !important;
 }
 
-.actions > .double-button:hover button {
+.actions>.double-button:hover button {
     background-color: transparent !important;
 }
 
-.actions > .double-button > .like-count {
+.actions>.double-button>.like-count {
     margin-right: 5px;
 }
 
@@ -314,7 +317,7 @@ body.dark-knight #navigation-bar a:not(.active):hover {
 .post-controls button.show-more-actions,
 .post-controls button.create-flag,
 .post-controls button.bookmark,
-.actions > .double-button > .toggle-like {
+.actions>.double-button>.toggle-like {
     padding: 0 7px !important;
     border-radius: 5px;
     height: 30px;
@@ -443,16 +446,16 @@ aside blockquote {
 
 
 
-.category-list > tbody .category {
+.category-list>tbody .category {
     border-width: 8px;
 }
 
-.category-list > thead > tr > th.category {
+.category-list>thead>tr>th.category {
     padding: 0 15px;
 }
 
-.category-list > thead > tr > th.topics,
-.category-list > tbody .topics {
+.category-list>thead>tr>th.topics,
+.category-list>tbody .topics {
     padding-right: 15px;
 }
 
@@ -468,7 +471,7 @@ aside blockquote {
     margin-top: 0;
 }
 
-.topic-status > i::before {
+.topic-status>i::before {
     vertical-align: top;
 }
 
@@ -489,7 +492,7 @@ aside blockquote {
     margin-bottom: 15px;
 }
 
-#whos-online > span {
+#whos-online>span {
     margin-right: 10px;
 }
 
@@ -514,7 +517,7 @@ aside blockquote {
     border-radius: 2px;
 }
 
-.discourse-tags > a::before {
+.discourse-tags>a::before {
     border-radius: 3600px;
     margin-bottom: 1px;
 }
@@ -534,7 +537,7 @@ aside blockquote {
     background: #eee;
 }
 
-.nav-pills > li a.active {
+.nav-pills>li a.active {
     color: #fff;
     background-color: var(--tertiary);
     border-radius: 5px;
@@ -544,7 +547,7 @@ aside blockquote {
     border-radius: 5px;
 }
 
-.nav-pills > li > a {
+.nav-pills>li>a {
     border-radius: 5px;
 }
 
@@ -682,4 +685,3 @@ i.fa.fa-shield-alt.d-icon.d-icon-shield-alt:before {
     font-size: 2em;
     padding-left: 10px;
 }
-

@@ -1,0 +1,23 @@
+.topic-card {
+    background: var(--md-sys-surface);
+    border-radius: var(--radius-md);
+    box-shadow: var(--elev-1);
+    padding: var(--space-3);
+    display: flex;
+    gap: var(--space-3);
+    transition: box-shadow var(--motion-duration-short);
+}
+
+.topic-card:hover {
+    box-shadow: var(--elev-2);
+}
+
+.topic-card__title {
+    font-size: 1rem;
+    color: var(--md-sys-on-surface);
+    margin: 0 0 var(--space-1) 0;
+}
+
+.topic-card__excerpt {
+    color: color-mix(in srgb, var(--md-sys-on-surface) 70%, transparent);
+}

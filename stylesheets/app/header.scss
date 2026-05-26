@@ -1,0 +1,33 @@
+.d-header {
+    background: var(--md-sys-surface);
+    box-shadow: var(--elev-1);
+    padding: var(--space-2) var(--space-3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.kodular-brand {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+}
+
+.kodular-fab {
+    background: var(--md-sys-primary);
+    color: var(--md-sys-on-primary);
+    border: none;
+    width: 44px;
+    height: 44px;
+    border-radius: var(--radius-pill);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--elev-2);
+    transition: transform var(--motion-duration-short) var(--motion-easing-standard);
+}
+
+.kodular-fab:active {
+    transform: scale(0.98);
+    box-shadow: var(--elev-1);
+}
